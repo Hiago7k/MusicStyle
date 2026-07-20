@@ -19,6 +19,25 @@ class Main{
         System.out.println("Visualizações " + musica1.getTotalDeReproducoes());
 
 
+        System.out.println("\n------ PodCasts -------");
+        Podcasts podcast1 = new Podcasts();
+        podcast1.setTitulo("Ep 01");
+        podcast1.setApresentadores("Joao");
+        podcast1.setConvidados("Cristiano Ronaldo");
+        podcast1.setClassificacao("Conversas");
+        podcast1.setCurtidas(23000);
+        podcast1.setDuracao(6000);
+
+        System.out.println("Exibindo informações do podcast " + podcast1.getTitulo());
+        System.out.println("Titulo: " + podcast1.getTitulo());
+        System.out.println("Apresentadores: " + podcast1.getApresentadores());
+        System.out.println("Convidados: " + podcast1.getConvidados());
+        System.out.println("Classificados: " + podcast1.getClassificacao());
+        System.out.println("Curtidas: " + podcast1.getCurtidas());
+        System.out.println("Duracao: " + podcast1.getDuracao());
+
+
+
 
 
     }
