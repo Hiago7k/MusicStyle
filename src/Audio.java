@@ -1,4 +1,4 @@
-public class Audio {
+public class Audio implements Classificacao {
 
     private String titulo;
     private int duracao;
@@ -54,5 +54,10 @@ public class Audio {
 
     public void setDuracao(int duracao) {
         this.duracao = duracao;
+    }
+
+    @Override
+    public void classiFicaAudio(Audio audio) {
+
     }
 }

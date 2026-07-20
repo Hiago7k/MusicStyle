@@ -1,4 +1,4 @@
-public class Musicas extends  Audio {
+public class Musicas extends Audio  {
     private String autor;
 
     public String getAutor() {

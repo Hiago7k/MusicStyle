@@ -37,8 +37,5 @@ class Main{
         System.out.println("Duracao: " + podcast1.getDuracao());
 
 
-
-
-
     }
 }
