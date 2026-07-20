@@ -2,6 +2,7 @@ class Main{
     static void main() {
         System.out.println("Musics & Podcast for public and free");
 
+        Audio audio = new Audio();
     Musicas musica1 = new Musicas();
     musica1.setTitulo("Impossible");
     musica1.setAutor("James Arthur");
@@ -17,6 +18,7 @@ class Main{
         System.out.println("Número de curtidas " + musica1.getCurtidas());
         System.out.println("Duração em segundos " + musica1.getDuracao());
         System.out.println("Visualizações " + musica1.getTotalDeReproducoes());
+        musica1.classiFicaAudio(musica1);
 
 
         System.out.println("\n------ PodCasts -------");
@@ -35,6 +37,7 @@ class Main{
         System.out.println("Classificados: " + podcast1.getClassificacao());
         System.out.println("Curtidas: " + podcast1.getCurtidas());
         System.out.println("Duracao: " + podcast1.getDuracao());
+        musica1.classiFicaAudio(podcast1);
 
 
     }

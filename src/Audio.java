@@ -58,6 +58,10 @@ public class Audio implements Classificacao {
 
     @Override
     public void classiFicaAudio(Audio audio) {
-
+      if(curtidas > 10000){
+          System.out.println("É bem avaliada");
+      }  else {
+          System.out.println("Não está em alta");
+      }
     }
 }
